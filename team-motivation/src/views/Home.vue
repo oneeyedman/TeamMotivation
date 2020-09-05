@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <MotivationDash />
+  <div class="home d-flex flex-column justify-center align-center pt-6 pb-6" height="100%">
+    <MotivationDash  class="flex-grow-1" />
     <MotivationForm />
   </div>
 </template>
